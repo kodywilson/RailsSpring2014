@@ -2,7 +2,7 @@ Reading:
 Chapter 1 - Section 1.1 on Bundler
 Chapter 3 REST, Resources, andRails - Sections 3.1 - 3.6
 
-Code:
+Code: All complete.
 Create new rails app
 Add a ruby version and gemset to it
 Add one page of static content
@@ -11,13 +11,21 @@ Put it on Github
 
 Questions:
 1. What is the difference between Bundler and RVM?
+   A. RVM allows you to use multiple versions of Ruby and have gem sets. Bundler
+      handles gem installation and dependencies for your application.
 2. What is REST and why is it useful?
-3. What does CRUD stand for? 
+   A. Representational State Transfer, a network architectural style. Provides
+      a standard way to get and post information to an application.
+3. What does CRUD stand for?
+   A. Create Read Update Delete
 4. What does this line of code do, and what file in my rails app would it go in?
    resources :students, except: :destroy
+   A. This defines a route and is in config/routes.rb
 
 Project Description:
-<please put your project description here>
+Alchemy profession application for the online game Elder Scrolls
+Business troubleshooting and triage helper blogging application
 
 Link to code on Github:
-<please put the link to your code on github here>
+https://github.com/kodywilson/alchemy
+https://github.com/kodywilson/blogo
